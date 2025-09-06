@@ -32,7 +32,7 @@ async function main() {
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 app.use(cors({
-  origin:["http://localhost:5173","https://m1jw9s4k-5173.inc1.devtunnels.ms"],
+  origin:["http://localhost:5173","https://m1jw9s4k-5173.inc1.devtunnels.ms","https://eco-fare.vercel.app"],
 
   credentials:true
 }));
