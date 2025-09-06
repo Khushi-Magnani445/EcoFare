@@ -79,7 +79,7 @@ Ride analytics: distance, duration, efficiency reports
 
 ⚡ Getting Started
 1️⃣ Clone the repository
-git clone https://github.com/your-username/EcoFare.git
+git clone https://github.com/Khushi-Magnani445/EcoFare
 cd EcoFare
 
 2️⃣ Backend Setup
