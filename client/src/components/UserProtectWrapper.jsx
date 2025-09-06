@@ -24,7 +24,7 @@ const UserProtectWrapper = ({ children }) => {
     // Only fetch if user is not already set
     if (!user || !user._id) {
       console.log('UserProtectWrapper - Fetching user profile...');
-      axios.get('http://localhost:5000/api/auth/profile', {
+      axios.get('https://ecofare-backend.onrender.com/api/auth/profile', {
         headers: {
           Authorization: `Bearer ${token}`
         }

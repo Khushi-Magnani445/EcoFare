@@ -71,7 +71,7 @@ function Register() {
     }
 
     try{
-      const res = await axios.post("http://localhost:5000/api/auth/register", requestData, {
+      const res = await axios.post("https://ecofare-backend.onrender.com/api/auth/register", requestData, {
         withCredentials: true
       });
       alert(res.data.message);

@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 import { io } from 'socket.io-client';
 
 import SocketDataContext from './SocketDataContext';
-const socket = io('http://localhost:5000');
+const socket = io('https://ecofare-backend.onrender.com');
 
 const SocketProvider = ({ children }) => {
     useEffect(() => {

@@ -41,7 +41,7 @@ const Home = () => {
     happyUsers: 0,
   });
   useEffect(()=>{
-    fetch('http://localhost:5000/api/stats').then(res=>res.json()).then(data => setStats(data)).catch(err=>console.log("Fetching Stats failed!"+err))
+    fetch('https://ecofare-backend.onrender.com/api/stats').then(res=>res.json()).then(data => setStats(data)).catch(err=>console.log("Fetching Stats failed!"+err))
   },[]); 
   
   return (
