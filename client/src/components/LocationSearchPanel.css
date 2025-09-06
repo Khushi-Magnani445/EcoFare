@@ -1,0 +1,45 @@
+.location-search-panel {
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  margin-top: 8px;
+  max-height: 240px;
+  overflow-y: auto;
+  position: absolute;
+  width: 92%;
+  left: 4%;
+  z-index: 20;
+  opacity: 1 !important;
+  height: auto !important;
+  display: block !important;
+  transition: all 0.25s cubic-bezier(.4,0,.2,1);
+}
+.suggestion-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 20px;
+  cursor: pointer;
+  transition: background 0.18s;
+  border-bottom: 1px solid #f3f3f3;
+}
+.suggestion-row:last-child {
+  border-bottom: none;
+}
+.suggestion-row:hover {
+  background: #144fd7;
+}
+.suggestion-icon {
+  color: #007bff;
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+.suggestion-address {
+  font-size: 1.05rem;
+  color: #222;
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+} 

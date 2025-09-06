@@ -1,0 +1,9 @@
+*.pptx
+*.ppt 
+
+node_modules
+
+.env
+.env.local
+.env.development
+.env.production
